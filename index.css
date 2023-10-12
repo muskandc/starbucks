@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.navbar{
+    display: flex;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 10px;
+    color: wheat;
+    letter-spacing: 2px;
+}
+.navbar li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.navbar li{
+    list-style: none;
+}
+.icon i{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+.icon i:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid aliceblue;
+}
+.icon{
+    margin-right: 5rem;
+}
+.logo{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(5, 168, 5);
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+#menu-icon{
+    display: none;
+}
+.search-form{
+    display: none;
+}
+.main{
+    margin-top: 10rem;
+    height: 90vh;
+    
+}
+.main-img img{
+    width: 500px;
+    float: right;
+
+}
+.main-con{
+    color: white;
+    margin-left: 12rem;
+
+}
+.main-con h1{
+    font-size: 50px;
+    color: wheat;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.main-con h2{
+    font-size: 55px;
+    color: antiquewhite;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.main-con p{
+    color: aliceblue;
+    margin-top:5px;
+}
+.main-con .btn{
+    background-color: transparent;
+    color: wheat;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+/*product*/
+.product-con{
+    box-shadow: 10px 10px 5px rgb(white);
+    border: 1px solid white;
+    padding: 5px;
+}
+.product-1{
+    display: flex;
+    gap: 4rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    margin-top: -4rem;
+    margin-bottom: 6rem;
+  
+}
+.product-con img{
+    padding-left: 5px;
+}
+.product-con1{
+    color: gray;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2px;
+    margin-left: 5px;
+
+}
+.product-con2{
+    color: white;
+    display: flex;
+    gap: 3rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.product-con3 {
+    color: white;
+    display: flex;
+    gap: 3rem;
+    margin-left: 5px;
+}
+.product-con3 .product-icon{
+    color: gold;
+}
+.product-btn{
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+/*banner*/
+.banner{
+    display: flex;
+    gap: 5rem;
+    margin-left: 8rem;
+}
+.sa-banner{
+    color: white;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    padding: 5px;
+}
+.sa-banner h4{
+    text-align: center;
+    color: darkred;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.sa-banner i{
+    color: rgb(80, 68, 0);
+    margin-bottom: 5px;
+    margin-left: 8rem;
+}
+.sa-banner p{
+    color: black;
+}
+/*location*/
+.loction{
+    margin-top: 2rem;
+    margin-left: 15rem;
+}
+.loction iframe{
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+/*footer*/
+.footer{
+    margin-top: 2rem;
+    background-color: gray;
+    border-top-left-radius: 35px;
+    height: 40vh;
+}
+.footer-con h4{
+    margin-left: 4rem;
+    padding-top: 1rem;
+    font-size: 30px;
+    color: rgb(3, 49, 51);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.footer-2{
+    color: white;
+    padding-top: 1rem;
+}
+.footer-1{
+    display: flex;
+    gap: 4rem;
+    margin-left: 4rem;
+}
+
+.footer-2 li{
+    list-style: none;
+}
+.footer-2 h5{
+    color: darkred;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer-2 li a{
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-weight: 200;
+  
+}
+.footer-2 i{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 7px;
+}
+.footer-2 input{
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid black;
+    
+}
+.footer ::placeholder{
+    color: aliceblue;
+}
+.footer p{
+    background-color: gray;
+    font-size: 12px;
+    padding-top: 1rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer h6{
+    background-color: gainsboro;
+    font-size: 17px;
+    padding-top: 10px;
+    text-align: center;
+}
+.search-bar{
+    display: none;
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 600px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+       position: absolute;
+       top: -200rem;
+       left: 0;
+       right: 0;
+       flex-direction: column;
+       background-color: aliceblue;
+       width: 100%;
+       height: 40vh;
+       padding: 5px;
+       z-index: 2;
+     
+    }
+    .navbar.active{
+        top: 5rem;
+    }
+    .navbar li{
+        padding-top: 1rem;
+        color: black;
+    }
+    .navbar li a{
+        color: black;
+    }
+    .icon{
+        display: flex;
+        margin-left: 5rem;
+    }
+    .logo i{
+        margin-left: 2rem;
+    }
+   /*main*/
+    .main-img img{
+        width: 200px;
+        height: 150px;
+    }
+    .main-con{
+        position: absolute;
+        top: 7rem;
+        left: -9rem;
+        right: 0;
+       
+    }
+    .main-con h1{
+        font-size: 20px;
+    }
+    .main-con h2{
+        font-size: 25px;
+    }
+    /*search-form*/
+    .search-form{
+        display: block;
+        position: absolute;
+        top: -200rem;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 200vh;
+        background-color: black;
+       z-index: 2;
+    }
+    .search-form.active{
+        top: 0;
+        transition: all .32s ease;
+    }
+    #close{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .search-form input{
+        position: absolute;
+        top: 10rem;
+        left: 2rem;
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 5px;
+        border: 1px solid black;
+    }
+    /*search-bar*/
+     .search-bar{
+        display: block;
+            position: absolute;
+            top: -2000rem;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 200vh;
+            background-color: black;
+           z-index: 2;
+     }
+     .search-bar.active{
+        top: 0;
+     }
+     .search-bar1{
+        position: absolute;
+        top: 4rem;
+        left: 2rem;
+        right: 3rem;
+        background-color: aliceblue;
+        padding: 15px 10px;
+        border-radius: 10px;
+     }
+     .search-bar1 input{
+        margin-bottom: 5px;
+        margin-left: 12px;
+        background-color: gray;
+        border: 1px solid wheat;
+        padding: 5px;
+        
+     }
+     .search-bar1 ::placeholder{
+        color: black;
+     }
+     .search-bar .btn-bar{
+        margin-left: 12px;
+        background-color: yellow;
+        border: 1px solid yellow;
+        color: darkred;
+        border-radius: 10px;
+        padding: 5px;
+     }
+     #closee{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background-color: aliceblue;
+        color: black;
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid wheat;
+     }
+     
+    /*product*/
+    .product-1{
+        flex-direction: column;
+        margin-top: -5rem;
+        margin-left: 10px;
+        margin-bottom: 4rem;
+    }
+    .product-con img{
+        margin-left: 1.2rem;
+    }
+    .product-con1{
+        color: gray;
+        font-weight: 100;
+        letter-spacing: 2px;
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+    .product-con2{
+        font-size: 19px;
+        color: aliceblue;
+        letter-spacing: 2px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .product-con3{
+        margin-left: 5px;
+    }
+    .product-con3 .product-icon{
+        color: gold;
+        
+    }
+    .product-btn{
+        background-color: yellow;
+        color: darkred;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 1px solid yellow;
+        margin-left: 1rem;
+
+    }
+    /*banner*/
+    .banner{
+        flex-direction: column;
+        margin-left: 1px;
+    }
+    .sa-banner{
+        margin-bottom: -2rem;
+    }
+    .loction{
+        margin-left: 1px;
+        margin-top: 4rem;
+    }
+    .loction iframe{
+        width: 300px;
+    }
+    /*footer*/
+    .footer{
+        background-color: gray;
+        height: 170vh;
+        
+    }
+    .footer-1{
+        flex-direction: column;
+       gap: 1rem;
+        
+    }
+    .footer-2{
+        margin-bottom: 10px;
+        margin-left: -2rem;
+    }
+    
+}
